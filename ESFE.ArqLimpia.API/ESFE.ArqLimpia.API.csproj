@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ESFE.ArqLimpia.BL.DTOs\ESFE.ArqLimpia.BL.DTOs.csproj" />
+    <ProjectReference Include="..\ESFE.ArqLimpia.BL.Interfaces\ESFE.ArqLimpia.BL.Interfaces.csproj" />
+    <ProjectReference Include="..\ESFE.ArqLimpia.IoC\ESFE.ArqLimpia.IoC.csproj" />
+  </ItemGroup>
+
+</Project>
